@@ -2,7 +2,7 @@
 
 - **`split()`, `split("")`, and `split(" ")`**
 : divides a `String` into an ordered list of substrings, puts these substrings into an array, and returns the array. 
-[from mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split)
+[@mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split)
 
 
 | `str.split()` | `str.split('')` | `str.split(' ')` |
@@ -20,7 +20,7 @@
 
 - **`split` function looks better than `for` loop**
 
-example [from freeCodeCamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures#basic-algorithm-scripting)
+example [@freeCodeCamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures#basic-algorithm-scripting)
 
 ```
 function reverseString(str) {
@@ -45,7 +45,7 @@ reverseString("hello");
 
 # Function.bind
 `Function.bind` 
-: works just like `Math.max` but also has `Function.prototype.apply`'s ability to take arrays as its arguments [from freeCodeCamp](https://forum.freecodecamp.org/t/freecodecamp-challenge-guide-return-largest-numbers-in-arrays/16042). When being called, `Function.bind` has its `this` keyword set to the provided value, with a given sequence of arguments preceding any provided when the new function is called [from mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Function/bind).
+: works just like `Math.max` but also has `Function.prototype.apply`'s ability to take arrays as its arguments [@freeCodeCamp](https://forum.freecodecamp.org/t/freecodecamp-challenge-guide-return-largest-numbers-in-arrays/16042). When being called, `Function.bind` has its `this` keyword set to the provided value, with a given sequence of arguments preceding any provided when the new function is called [@mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Function/bind).
 
 - **`bind` function looks cleaner**
 ```
