@@ -10,7 +10,8 @@
 | convert to array? | characters | words |
 | copy whole? | output whitout space | output incuding space |
 
-example of `const str = 'A dog';`
+- **example of `const str = 'A dog'`** 
+
 | `str.split()` | `str.split('')` | `str.split(' ')` |
 | ----------- | ----------- | ----------- |
 | ['A dog'] | ['A', 'dog']  | ["A", " ", "d", "o", "g"] |
@@ -18,7 +19,9 @@ example of `const str = 'A dog';`
 | length: 1 | length: 2 | length: 5 |
 
 - **`split` function looks better than `for` loop**
+
 example [from freeCodeCamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures#basic-algorithm-scripting)
+
 ```
 function reverseString(str) {
   return str
@@ -42,15 +45,15 @@ reverseString("hello");
 
 # Function.bind
 `Function.bind` 
-: works just like Math.max but also has `Function.prototype.apply`'s ability to take arrays as its arguments [from freeCodeCamp](https://forum.freecodecamp.org/t/freecodecamp-challenge-guide-return-largest-numbers-in-arrays/16042). When being called, it has its `this` keyword set to the provided value, *with a given sequence of arguments preceding any provided when the new function is called* [from mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Function/bind).
+: works just like `Math.max` but also has `Function.prototype.apply`'s ability to take arrays as its arguments [from freeCodeCamp](https://forum.freecodecamp.org/t/freecodecamp-challenge-guide-return-largest-numbers-in-arrays/16042). When being called, `Function.bind` has its `this` keyword set to the provided value, with a given sequence of arguments preceding any provided when the new function is called [from mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Function/bind).
 
+- **`bind` function looks cleaner**
 ```
 function largestOfFour(arr) {
   return arr.map(Function.apply.bind(Math.max, null));
 }
 ```
-
----
+vs
 # array.map & array.reduce
 
 ```
@@ -65,3 +68,4 @@ function largestOfFour(arr) {
 
 
 
+---
