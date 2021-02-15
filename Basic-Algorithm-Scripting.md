@@ -1,6 +1,4 @@
-# split
-
-## `split()`, `split("")`, and `split(" ")`
+# split()`, `split("")`, and `split(" ")`
 
 : divides a `String` into an ordered list of substrings, puts these substrings into an array, and returns the array. 
 [@mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split)
@@ -46,9 +44,7 @@ reverseString("hello");
 
 ---
 
-# Function.bind
-
-## `Function.bind` 
+# `Function.bind`
 
 : works just like `Math.max` but also has `Function.prototype.apply`'s ability to take arrays as its arguments [@freeCodeCamp](https://forum.freecodecamp.org/t/freecodecamp-challenge-guide-return-largest-numbers-in-arrays/16042). When being called, `Function.bind` has its `this` keyword set to the provided value, with a given sequence of arguments preceding any provided when the new function is called [@mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Function/bind).
 
