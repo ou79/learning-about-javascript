@@ -1,4 +1,4 @@
-# split()`, `split("")`, and `split(" ")`
+# `split()`, `split("")`, and `split(" ")`
 
 : divides a `String` into an ordered list of substrings, puts these substrings into an array, and returns the array. 
 [@mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split)
