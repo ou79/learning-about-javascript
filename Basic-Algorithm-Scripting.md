@@ -53,8 +53,11 @@ function largestOfFour(arr) {
   return arr.map(Function.apply.bind(Math.max, null));
 }
 ```
+## need to know
+*pass a null as the 2nd param to `Function.prototype.apply.bind` which gives a context to the `Math.max` method.
+*`Function.prototype.apply.bind(Math.max, null)` makes a new function accepting the `arr.map` values i.e. the inner arrays.
+
 vs
-# array.map & array.reduce
 
 ```
 function largestOfFour(arr) {
