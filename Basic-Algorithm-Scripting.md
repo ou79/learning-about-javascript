@@ -1,15 +1,14 @@
 # split
 
 **`split()`, `split("")`, and `split(" ")`**
-split
 : divides a `String` into an ordered list of substrings, puts these substrings into an array, and returns the array. 
 [from mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split)
 
 
 | `str.split()` | `str.split('')` | `str.split(' ')` |
 | ----------- | ----------- | ----------- |
-| str | characters | words |
-| whole | whitout space | incuding space |
+| convert to array? | characters | words |
+| copy whole? | output whitout space | output incuding space |
 
 example of `const str = 'A dog';`
 | `str.split()` | `str.split('')` | `str.split(' ')` |
