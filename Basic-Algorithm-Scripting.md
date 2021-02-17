@@ -78,8 +78,8 @@ example [@freeCodeCamp](https://www.freecodecamp.org/learn/javascript-algorithms
 
 ```
 function largestOfFour(arr) {
-  return arr.map(function(group) {
-    return group.reduce(function(prev, current) {
+  return arr.map(function(newArr) {
+    return newArr.reduce(function(prev, current) {
       return current > prev ? current : prev;
     });
   });
