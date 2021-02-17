@@ -72,7 +72,7 @@ function largestOfFour(arr) {
 - syntax: `arr.reduce(callback( accumulator, currentValue, [, index[, array]] )[, initialValue])`
 - `callback` is a function to execute on each element in the array (except for the first, if no initialValue is supplied).
 
-### conclude an new array of max numbers from `reducing` the rest numbers in each nested array
+### conclude an new array of max numbers from `reduce`-ing the rest numbers in each nested array
 
 example [@freeCodeCamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures#basic-algorithm-scripting)
 
