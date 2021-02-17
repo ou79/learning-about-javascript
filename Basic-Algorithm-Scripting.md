@@ -48,7 +48,7 @@ reverseString("hello");
 
 : works just like `Math.max` but also has `Function.prototype.apply`'s ability to take arrays as its arguments [@freeCodeCamp](https://forum.freecodecamp.org/t/freecodecamp-challenge-guide-return-largest-numbers-in-arrays/16042). When being called, `Function.bind` has its `this` keyword set to the provided value, with a given sequence of arguments preceding any provided when the new function is called [@mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Function/bind).
 
-### `bind` function compares to 
+### `bind` an new array of max numbers in each nested array 
 
 example [@freeCodeCamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures#basic-algorithm-scripting)
 
@@ -58,7 +58,7 @@ function largestOfFour(arr) {
 }
 ```
 
-**need to know**
+### need to know
 
 - about `this`
 - pass a null as the 2nd param to `Function.prototype.apply.bind` which gives a context to the `Math.max` method.
@@ -72,7 +72,9 @@ function largestOfFour(arr) {
 - syntax: `arr.reduce(callback( accumulator, currentValue, [, index[, array]] )[, initialValue])`
 - `callback` is a function to execute on each element in the array (except for the first, if no initialValue is supplied).
 
-same example above [@freeCodeCamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures#basic-algorithm-scripting)
+### conclude an new array of max numbers from `reducing` the rest numbers in each nested array
+
+example [@freeCodeCamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures#basic-algorithm-scripting)
 
 ```
 function largestOfFour(arr) {
