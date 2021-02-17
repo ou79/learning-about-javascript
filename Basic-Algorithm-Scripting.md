@@ -16,7 +16,7 @@
 | 0: 'A dog'| 0: 'A' <br /> 1: 'dog' | 0: "A"<br /> 1: " "<br /> 2: "d"<br /> 3: "o"<br /> 4: "g" |
 | length: 1 | length: 2 | length: 5 |
 
-### `split` function looks better than `for` loop
+### `split` function compares to `for` loop
 
 example [@freeCodeCamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures#basic-algorithm-scripting)
 
@@ -48,7 +48,7 @@ reverseString("hello");
 
 : works just like `Math.max` but also has `Function.prototype.apply`'s ability to take arrays as its arguments [@freeCodeCamp](https://forum.freecodecamp.org/t/freecodecamp-challenge-guide-return-largest-numbers-in-arrays/16042). When being called, `Function.bind` has its `this` keyword set to the provided value, with a given sequence of arguments preceding any provided when the new function is called [@mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Function/bind).
 
-### `bind` function looks cleaner
+### `bind` function compares to 
 
 example [@freeCodeCamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures#basic-algorithm-scripting)
 
@@ -63,7 +63,15 @@ function largestOfFour(arr) {
 *pass a null as the 2nd param to `Function.prototype.apply.bind` which gives a context to the `Math.max` method.
 *`Function.prototype.apply.bind(Math.max, null)` makes a new function accepting the `arr.map` values i.e. the inner arrays.
 
-vs
+# `Function.reduce`
+
+: executes a reducer function (that you provide) on each element of the array, resulting in single output value [@mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce). 
+
+- The `reduce()` method executes the callback once for each assigned value present in the array, taking four arguments: `accumulator`, `currentValue`, `currentIndex`, and `sourceArray` [@mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce).
+- syntax: `arr.reduce(callback( accumulator, currentValue, [, index[, array]] )[, initialValue])`
+- `callback` is a function to execute on each element in the array (except for the first, if no initialValue is supplied).
+
+same example above [@freeCodeCamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures#basic-algorithm-scripting)
 
 ```
 function largestOfFour(arr) {
@@ -74,7 +82,5 @@ function largestOfFour(arr) {
   });
 }
 ```
-
-
 
 ---
